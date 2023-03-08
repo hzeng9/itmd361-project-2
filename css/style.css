@@ -70,7 +70,7 @@ body{
   transform:scale(1.5);
 }
 
-#resumeDetails{
+#skills, #languages, #education, #experience, #vnl{
   padding:1em;
   border:5px solid;
   margin-top:10px;
@@ -91,7 +91,7 @@ body{
   justify-content:center;
 }
 
-#textContent{
+#changeOfMajor,#clubExperience,#campusExperience,#pc, #keyboards, #video, #fitness{
   text-align:center;
   border:10px solid;
   padding:10px;
