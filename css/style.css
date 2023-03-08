@@ -61,13 +61,26 @@ body{
 #mainHeading{
   text-align:center;
   font-family:sans-serif;
-  
+
+  transition: transform 500ms ease;
+}
+
+#mainHeading:hover{
+  transform:scale(1.5);
+}
+
+#resumeDetails{
+  padding:1em;
+  border:5px solid;
+  margin-top:10px;
 }
 
 #resumeContactDetails{
   text-align:center;
+  font-size:20px;
   font-family:sans-serif;
   border-bottom:solid;
+  margin:0;
 }
 
 #pageImages{
