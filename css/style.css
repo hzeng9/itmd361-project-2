@@ -1,1 +1,52 @@
+#navbar{
+  background-color:rgb(75, 75, 75);
+  overflow:hidden;    
+  font-family:sans-serif;
+}
 
+#navbar-container{  
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+#navbar ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  float:left;
+}
+
+#navbar ul li{
+  float:left;
+  position:relative;
+  right:50%;
+  display:block;
+}
+
+#navbar ul li a{
+  display:block;
+  padding: 20px 20px;
+  color:#fff;
+  text-decoration:none;
+}
+
+#navbar ul li a:hover{
+  background-color: rgb(65, 65, 65);
+}
+
+body{
+  background-color:rgb(131, 180, 166);
+}
+
+#mainHeading{
+  text-align:center;
+  font-family:sans-serif;
+}
+
+#resumeContactDetails{
+  text-align:center;
+  font-family:sans-serif;
+}
